@@ -52,7 +52,7 @@ A comprehensive educational platform built with Flutter that offers interactive 
 1. Clone the repository
 
 ```bash
-git clone [your-repository-url]
+git clone [https://github.com/enki-somer/LearnUp.git]
 ```
 
 2. Navigate to the project directory
@@ -141,7 +141,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- [Your Name]
+- [Ahmed. Issa]
 
 ## 🙏 Acknowledgments
 
