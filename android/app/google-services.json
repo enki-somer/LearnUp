@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "804589797275",
+    "project_id": "eduflut",
+    "storage_bucket": "eduflut.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804589797275:android:9a4c8a8ba77a7c0ae36b3e",
+        "android_client_info": {
+          "package_name": "com.example.edu_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2iGth1BzE3VPJHz735awOGR4FX4mmzQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804589797275:android:c37d0917d7640056e36b3e",
+        "android_client_info": {
+          "package_name": "com.example.grad_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2iGth1BzE3VPJHz735awOGR4FX4mmzQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

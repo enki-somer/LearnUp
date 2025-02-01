@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A modern learning platform">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="LearnUp">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+
+  <title>LearnUp</title>
+  <link rel="manifest" href="manifest.json">
+  <script>
+    var serviceWorkerVersion = null;
+  </script>
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js"></script>
+  
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      // Add your Firebase config here
+      apiKey: "AIzaSyDnTT3dr-h6w7GgL9qaPPrkDZ9mGP_4zsI",
+      authDomain: "eduflut.firebaseapp.com",
+      projectId: "eduflut",
+      storageBucket: "eduflut.firebasestorage.app",
+      messagingSenderId: "804589797275",
+      appId: "1:804589797275:web:70a116f83bb8be20e36b3e",
+      measurementId: "G-VJLG3ZSVG4"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script>
+    window.addEventListener('load', function(ev) {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
